@@ -1,4 +1,11 @@
+# Sensitive
 .env
-node_modules/
-supabase/config.ts
 *.lockb
+supabase/config.ts
+
+# Build + node modules
+node_modules/
+dist/
+
+# IDE
+.vscode/
